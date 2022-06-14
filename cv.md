@@ -42,3 +42,4 @@ I don't have experience in programming.
 - Elementary English(A2)
 ##Hobby
 - Skiing
+- Walking long distances
