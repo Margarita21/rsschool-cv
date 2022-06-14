@@ -40,3 +40,5 @@ I don't have experience in programming.
 ## Languages
 - Native Russian
 - Elementary English(A2)
+##Hobby
+- Skiing
