@@ -10,49 +10,92 @@
 </head>
 
 <body>
-    <header>
-        <h1>Kravchinskaya Margarita</h1>
-    </header>
-    <main>
-        <p class="new-chapter">Personal Information</p>
-        <ul>
-            <li>Nationality: Belarussian</li>
-            <li>Location: Soligorsk, Belarus</li>
-            <li>Phone number: +375447151169</li>
-            <li>Email: kravchinskaya_margarita97@mail.ru</li>
-            <li>GitHub: Margarita21</li>
-        </ul>
-        <p class="new-chapter">About Me</p>
-        <p>I am responsible, reliable and sociable person. I am good at working in a team. I am very motivated to
-            develop in
-            Front-End sphere.</p>
-        <p>Education</p>
-        <p>2015—2020; department of Civil Engineering, Belarusian State University of Transport, Gomel, Belarus<br>
-            Bachelor’s degree in Civil Engineering</p>
-        <p class="new-chapter">Skills</p>
-        <ul>
-            <li>Html</li>
-            <li>CSS/SCSS</li>
-            <li>JavaScript(Basic knowledge)</li>
-            <li>Figma</li>
-        </ul>
-        <p class="new-chapter">Code Example</p>
-        <img src="code_example.jpg" alt="Code example picture">
-
-        <p class="new-chapter">Experience</p>
-        <p>I don't have experience in programming.</p>
-        <p class="new-chapter">Languages</p>
-        <ul>
-            <li>Native Russian</li>
-            <li>Elementary English(A2)</li>
-        </ul>
-    </main>
-    <footer>
-        <a href="https://github.com/Margarita21">My GitHub</a>
-        <img src="rs.svg" alt="logo">
-        <a href="https://rs.school/js/">RS School</a>
-
-    </footer>
+    <div class="wrapper">
+        <main>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#Personal_Information">Personal Information</a></li>
+                        <li><a href="#About_Me">About Me</a></li>
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#Code_Example">Projects & Code</a></li>
+                        <li><a href="#Languages">Languages</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="main-info">
+                <div><img src="my_photo1.jpg" alt="My photo"></div>
+                <div>
+                    <h1>Kravchinskaya Margarita</h1>
+                    <p>Junior Front-End Developer</p>
+                </div>
+            </div>
+            <h2 class="new-chapter" id="Personal_Information">Personal Information</h2>
+            <ul>
+                <li>Nationality: Belarussian</li>
+                <li>Location: Soligorsk, Belarus</li>
+                <li>Phone number: +375447151169</li>
+                <li>Email: kravchinskaya_margarita97@mail.ru</li>
+                <li>GitHub: Margarita21</li>
+            </ul>
+            <h2 class="new-chapter" id="About_Me">About Me</h2>
+            <p>I am responsible, reliable and sociable person. I am good at working in a team. I am very motivated to
+                develop in
+                Front-End sphere.</p>
+            <h2 class="new-chapter" id="Education">Education</h2>
+            <p>2015—2020; department of Civil Engineering, Belarusian State University of Transport, Gomel, Belarus<br>
+                Bachelor’s degree in Civil Engineering</p>
+            <p class="new-chapter" id="Skills">Skills</p>
+            <ul>
+                <li>Html</li>
+                <li>CSS/SCSS</li>
+                <li>JavaScript(Basic knowledge)</li>
+                <li>Figma</li>
+            </ul>
+            <h2 class="new-chapter" id="Code_Example">Projects & Code</h2>
+            <h3>Projects</h3>
+            <ul>
+                <li><a class="project" href="https://margarita21.github.io/rsschool-cv/cv">CV in markdown format</a>
+                </li>
+                <li><a class="project" href="https://margarita21.github.io/rsschool-cv">CV</a></li>
+            </ul>
+            <h3>Code Example</h3>
+            <p><code>
+                multiplicationTable=function(size) {<Br>
+                    &nbsp&nbsp let table=[];<Br>
+                    &nbsp&nbsp let table1=[];<Br>
+                    &nbsp&nbsp let j;<Br>
+                    &nbsp&nbsp for(let i=0; i < size; i++) {<Br>
+                        &nbsp&nbsp&nbsp&nbsp j=0;<Br>
+                        &nbsp&nbsp&nbsp&nbsp while(j < size){<Br>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp table1.push((i+1)*(j+1));<Br>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp j++; <Br>
+                        &nbsp&nbsp&nbsp&nbsp }<Br>
+                        &nbsp&nbsp&nbsp&nbsp table.push(table1);<Br>
+                        &nbsp&nbsp&nbsp&nbsp table1=[];<Br>
+                    &nbsp&nbsp }<Br>   
+                    &nbsp&nbsp return table; <Br>
+                }</code></p>
+            <h2 class="new-chapter" id="Experience">Experience</h2>
+            <p>I don't have experience in programming.</p>
+            <h2 class="new-chapter" id="Languages">Languages</h2>
+            <ul>
+                <li>Native Russian</li>
+                <li>Elementary English(A2)</li>
+            </ul>
+        </main>
+        <footer>
+            <div class="footer_container">
+                <div><a href="https://github.com/Margarita21">My GitHub</a></div>
+                <div class="footer_container-logo">
+                    <div><img src="rs.svg" alt="logo"></div>
+                    <div>2022</div>
+                </div>
+                <div><a href="https://rs.school/js/">RS School</a></div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
