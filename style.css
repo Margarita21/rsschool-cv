@@ -29,6 +29,9 @@ nav>ul>li{
     text-transform: uppercase;
 
 }
+.main{
+    padding: 0 0 70px 0;
+}
 .main-info{
     padding: 25px 0 0 0 ;
     display: flex;
@@ -65,9 +68,10 @@ nav>ul>li:hover{
     text-decoration: underline;
 }
 footer{
-    padding: 20px 0 0 0 ;
-    height: 100px;
-    line-height: 100px;
+    padding: 30px 0 0 0 ;
+    height: 55px;
+    line-height: 80px;
+    border-top: 3px solid rgb(53, 52, 52);;
     
 }
 .footer_container{
@@ -78,23 +82,17 @@ footer{
 
 .footer_container>div>a{
     text-decoration: none;
-    color: rgb(202, 202, 202);
+    color: rgb(31, 30, 30);
 }
 .footer_container>div>a:hover{
     text-decoration: underline;
 }
 
-.footer_container-logo{
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    flex-direction: column;
-}
-.footer_container-logo>div{
+.footer_container>div{
     height: 30px;
     line-height: 30px;
     text-align: center;
 }
-.footer_container-logo>div>img{
+.footer_container>div>a>img{
     height: 28px;
 }

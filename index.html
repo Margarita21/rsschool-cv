@@ -11,7 +11,7 @@
 
 <body>
     <div class="wrapper">
-        <main>
+        <main class="main">
             <header>
                 <nav>
                     <ul>
@@ -19,7 +19,7 @@
                         <li><a href="#About_Me">About Me</a></li>
                         <li><a href="#Education">Education</a></li>
                         <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#Code_Example">Projects & Code</a></li>
+                        <li><a href="#Code_Example">Projects &amp; Code</a></li>
                         <li><a href="#Languages">Languages</a></li>
                     </ul>
                 </nav>
@@ -53,7 +53,7 @@
                 <li>JavaScript(Basic knowledge)</li>
                 <li>Figma</li>
             </ul>
-            <h2 class="new-chapter" id="Code_Example">Projects & Code</h2>
+            <h2 class="new-chapter" id="Code_Example">Projects &amp; Code</h2>
             <h3>Projects</h3>
             <ul>
                 <li><a class="project" href="https://margarita21.github.io/rsschool-cv/cv">CV in markdown format</a>
@@ -61,22 +61,23 @@
                 <li><a class="project" href="https://margarita21.github.io/rsschool-cv">CV</a></li>
             </ul>
             <h3>Code Example</h3>
-            <p><code>
-                multiplicationTable=function(size) {<Br>
-                    &nbsp&nbsp let table=[];<Br>
-                    &nbsp&nbsp let table1=[];<Br>
-                    &nbsp&nbsp let j;<Br>
-                    &nbsp&nbsp for(let i=0; i < size; i++) {<Br>
-                        &nbsp&nbsp&nbsp&nbsp j=0;<Br>
-                        &nbsp&nbsp&nbsp&nbsp while(j < size){<Br>
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp table1.push((i+1)*(j+1));<Br>
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp j++; <Br>
-                        &nbsp&nbsp&nbsp&nbsp }<Br>
-                        &nbsp&nbsp&nbsp&nbsp table.push(table1);<Br>
-                        &nbsp&nbsp&nbsp&nbsp table1=[];<Br>
-                    &nbsp&nbsp }<Br>   
-                    &nbsp&nbsp return table; <Br>
-                }</code></p>
+            <pre><code>
+                multiplicationTable=function(size){
+                    let table=[];
+                    let table1=[];
+                    let j;
+                    for(let i=0; i&lt;size; i++){
+                        j=0;
+                        (j&lt;size){
+                            table1.push((i+1)*(j+1));
+                            j++;
+                        }
+                        table.push(table1);
+                        table1=[];
+                    }   
+                    return table;
+                }
+            </code></pre>
             <h2 class="new-chapter" id="Experience">Experience</h2>
             <p>I don't have experience in programming.</p>
             <h2 class="new-chapter" id="Languages">Languages</h2>
@@ -87,12 +88,9 @@
         </main>
         <footer>
             <div class="footer_container">
+                <div><a href="https://rs.school/js/"><img src="rs.svg" alt="logo"></a></div>
+                <div>2022</div>
                 <div><a href="https://github.com/Margarita21">My GitHub</a></div>
-                <div class="footer_container-logo">
-                    <div><img src="rs.svg" alt="logo"></div>
-                    <div>2022</div>
-                </div>
-                <div><a href="https://rs.school/js/">RS School</a></div>
             </div>
         </footer>
     </div>
